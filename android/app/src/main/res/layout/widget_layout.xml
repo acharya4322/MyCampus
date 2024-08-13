@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/widget_period_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Period: N/A"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_subject_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject: N/A"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start: N/A"
+        android:textSize="11sp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:id="@+id/widget_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End: N/A"
+        android:textSize="11sp"
+        android:textColor="#666666" />
+
+    <Button
+        android:id="@+id/widget_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+</LinearLayout>
